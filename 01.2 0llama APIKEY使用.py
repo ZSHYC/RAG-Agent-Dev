@@ -3,7 +3,7 @@ import os
 
 client = OpenAI(
     # 如果没有配置环境变量，请用阿里云百炼API Key替换：api_key="sk-xxx"
-    base_url="https://localhost:11434/v1",
+    base_url="http://localhost:11434/v1",
 )
 
 messages = [{"role": "user", "content": "ASVSim是啥，我要用这个做无人船极地导航毕设"}]
